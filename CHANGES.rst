@@ -1,8 +1,8 @@
 Changelog for pymt_geotiff
 ==========================
 
-0.1.1 (unreleased)
--------------------
+0.1.1 (2021-05-03)
+------------------
 
 - Add babelized content
 - Update GitHub org in README
