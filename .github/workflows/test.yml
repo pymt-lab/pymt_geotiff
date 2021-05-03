@@ -53,4 +53,4 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_geotiff'
-          bmi-test pymt_geotiff.bmi:GeoTiff -vvv
+        	bmi-test pymt_geotiff.bmi:GeoTiff --config-file=examples/bmi-geotiff.yaml --root-dir=examples -vvv

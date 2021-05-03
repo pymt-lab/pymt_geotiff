@@ -6,6 +6,7 @@ Changelog for pymt_geotiff
 
 - Add babelized content
 - Update GitHub org in README
+- Add sample config file and update `bmi-test` call
 
 
 0.1.0 (2021-05-03)
