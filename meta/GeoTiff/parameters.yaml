@@ -1,0 +1,6 @@
+filename:
+  description: Path or URL to the GeoTIFF file to open
+  value:
+    type: string
+    default:
+    units: 1
