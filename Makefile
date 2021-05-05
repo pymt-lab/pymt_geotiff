@@ -54,8 +54,8 @@ lint: ## check style with flake8
 	flake8 pymt_geotiff
 
 pretty:
-	find pymt_geotiff -name '*.py' | xargs isort
-	black setup.py pymt_geotiff
+	find pymt_geotiff examples docs -name '*.py' | xargs isort
+	black setup.py pymt_geotiff examples docs
 
 test: ## run tests quickly with the default Python
 	bmi-test pymt_geotiff.bmi:GeoTiff --config-file=examples/bmi-geotiff.yaml --root-dir=examples -vvv
