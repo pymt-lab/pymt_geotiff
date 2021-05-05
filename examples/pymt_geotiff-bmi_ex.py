@@ -1,7 +1,7 @@
 """An example of running the babelized GeoTiff library through its BMI."""
 import numpy as np
-from pymt_geotiff import GeoTiff
 
+from pymt_geotiff import GeoTiff
 
 config_file = "bmi-geotiff.yaml"
 
