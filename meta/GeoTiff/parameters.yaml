@@ -2,5 +2,5 @@ filename:
   description: Path or URL to the GeoTIFF file to open
   value:
     type: string
-    default:
+    default: https://csdms.colorado.edu/data/SRTMGL3_36.738884_-120.168457_38.091337_-118.465576.tif
     units: 1
