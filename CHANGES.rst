@@ -4,7 +4,8 @@ Changelog for pymt_geotiff
 0.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add component metadata
+- Create script and Jupyter Notebook examples (#1)
 
 
 0.1.1 (2021-05-03)
