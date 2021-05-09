@@ -11,38 +11,12 @@ Create an instance.
     m = GeoTiff()
 
 In this case, we’ll initialize the GeoTiff component with information
-from a configuration file. View the `sample configuration
-file <https://github.com/pymt-lab/pymt_geotiff/blob/main/examples/bmi-geotiff.yaml>`__
-provided in the repository.
-
-.. code:: ipython3
-
-    cat bmi-geotiff.yaml
-
-
-.. parsed-literal::
-
-    bmi-geotiff:
-      filename: https://github.com/mapbox/rasterio/raw/master/tests/data/RGB.byte.tif
-
-
-Initialize the GeoTiff component with the configuration file. (This may
-take a moment as data are fetched from the internet.)
+from a configuration file.
+(This may take a moment as data are fetched from the internet.)
 
 .. code:: ipython3
 
     m.initialize("bmi-geotiff.yaml")
-
-
-.. parsed-literal::
-
-    *** <xarray.Rectilinear>
-    Dimensions:     (rank: 3)
-    Dimensions without coordinates: rank
-    Data variables:
-        mesh        int64 0
-        node_shape  (rank) int32 3 718 791
-
 
 Note that the configurtation information has been read from the
 configuration file into the component as parameters.
