@@ -11,6 +11,7 @@ formats:
 python:
   version: 3.8
   install:
+    - requirements: requirements-library.txt
     - method: pip
       path: .
   system_packages: false
