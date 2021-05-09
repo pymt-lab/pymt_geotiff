@@ -6,6 +6,7 @@ Changelog for pymt_geotiff
 
 - Add component metadata
 - Create script and Jupyter Notebook examples (#1)
+- Create user and developer documentation (#2)
 
 
 0.1.1 (2021-05-03)
