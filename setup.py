@@ -27,7 +27,7 @@ setup(
     author_email="mark.piper@colorado.edu",
     description="PyMT plugin for pymt_geotiff",
     long_description=long_description,
-    version="0.2",
+    version="0.3.dev0",
     url="https://github.com/mdpiper/pymt_geotiff",
     classifiers=[
         "Development Status :: 4 - Beta",
