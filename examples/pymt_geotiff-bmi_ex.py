@@ -1,4 +1,5 @@
 """An example of running the babelized GeoTiff library through its BMI."""
+
 import numpy as np
 
 from pymt_geotiff import GeoTiff
