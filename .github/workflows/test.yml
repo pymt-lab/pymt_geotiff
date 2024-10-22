@@ -27,10 +27,8 @@ jobs:
 
       - uses: conda-incubator/setup-miniconda@v3
         with:
-          auto-update-conda: true
+          miniforge-version: latest
           python-version: ${{ matrix.python-version }}
-          channels: conda-forge
-          channel-priority: true
 
       - name: Show conda installation info
         run: |
@@ -39,18 +37,14 @@ jobs:
 
       - name: Install requirements
         run: |
-          conda install mamba
-          mamba install --file=requirements-build.txt --file=requirements-library.txt
-          mamba list
+          conda install --file=requirements-build.txt --file=requirements-library.txt --file=requirements-testing.txt
+          conda list
 
       - name: Build and install package
         run: |
           pip install -e .
 
-      - name: Install testing dependencies
-        run: mamba install --file=requirements-testing.txt
-
       - name: Test
         run: |
           python -c 'import pymt_geotiff'
-          bmi-test pymt_geotiff.bmi:GeoTiff --config-file=examples/bmi-geotiff.yaml --root-dir=examples -vvv
+          make test
