@@ -1,6 +1,12 @@
 Changelog for pymt_geotiff
 ==========================
 
+0.2.2 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 0.2.1 (2024-10-22)
 ------------------
 
