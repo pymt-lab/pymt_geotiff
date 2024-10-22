@@ -48,9 +48,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"pymt_geotiff"
-copyright = u"2021, Mark Piper"
-author = u"Mark Piper"
+project = "pymt_geotiff"
+copyright = "2021, Mark Piper"
+author = "Mark Piper"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -149,8 +149,8 @@ latex_documents = [
     (
         master_doc,
         "pymt_geotiff.tex",
-        u"pymt_geotiff Documentation",
-        u"Mark Piper",
+        "pymt_geotiff Documentation",
+        "Mark Piper",
         "manual",
     ),
 ]
@@ -160,7 +160,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "pymt_geotiff", u"pymt_geotiff Documentation", [author], 1)]
+man_pages = [(master_doc, "pymt_geotiff", "pymt_geotiff Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------
@@ -172,7 +172,7 @@ texinfo_documents = [
     (
         master_doc,
         "pymt_geotiff",
-        u"pymt_geotiff Documentation",
+        "pymt_geotiff Documentation",
         author,
         "pymt_geotiff",
         "One line description of project.",

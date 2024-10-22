@@ -16,7 +16,7 @@ def read(filename):
         return fp.read()
 
 
-long_description = u"\n\n".join(
+long_description = "\n\n".join(
     [read("README.rst"), read("CREDITS.rst"), read("CHANGES.rst")]
 )
 
@@ -33,12 +33,17 @@ setup(
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: POSIX :: Linux",
-        "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.8",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: Implementation :: CPython",
+        "Topic :: Scientific/Engineering :: Physics",
     ],
     keywords=["bmi", "pymt"],
+    requires_python=">=3.10",
     install_requires=open("requirements.txt", "r").read().splitlines(),
     packages=find_packages(),
     entry_points=entry_points,

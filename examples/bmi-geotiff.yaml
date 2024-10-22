@@ -1,2 +1,2 @@
 bmi-geotiff:
-  filename: https://github.com/mapbox/rasterio/raw/master/tests/data/RGB.byte.tif
+  filename: https://github.com/rasterio/rasterio/raw/refs/heads/main/tests/data/RGB.byte.tif

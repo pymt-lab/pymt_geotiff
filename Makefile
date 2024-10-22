@@ -58,7 +58,7 @@ pretty:
 	black setup.py pymt_geotiff examples docs
 
 test: ## run tests quickly with the default Python
-	bmi-test pymt_geotiff.bmi:GeoTiff --config-file=examples/bmi-geotiff.yaml --root-dir=examples -vvv
+	bmi-test pymt_geotiff.bmi:GeoTiff --config-file=${PWD}/examples/bmi-geotiff.yaml --root-dir=examples -vvv
 
 test-all: ## run tests on every Python version with tox
 	tox
